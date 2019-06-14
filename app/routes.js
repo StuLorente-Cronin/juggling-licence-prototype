@@ -3,7 +3,7 @@ const router = express.Router()
 
 // Add your routes here - above the module.exports line
 
-router.post('juggling-balls-answer', function(request, response){
+router.post('/juggling-balls-answer', function(request, response){
 
   var jugglingBalls = request.session.data['juggling-balls']
 
